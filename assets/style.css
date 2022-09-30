@@ -30,7 +30,7 @@ li {
 }
 
 #fiveDay .card {
-    border: 1px solid white!important;
+    border: 1px solid rgb(20, 135, 131)!important;
 }
 
 #searchHistory li {
@@ -39,7 +39,7 @@ li {
 }
 
 p {
-    color: #282725;
+    color: #efedea;
 }
 
 h1, h2, h3, h4, h5 {
