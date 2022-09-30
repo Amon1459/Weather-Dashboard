@@ -34,7 +34,6 @@ function displayWeather(event){
 function currentWeather(city){
     // Here we build the URL so we can get a data from server side.
     var queryURL= "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=" + APIKey;
-
     $.ajax({
         url:queryURL,
         method:"GET",
@@ -152,4 +151,19 @@ function loadlastCity(){
         city=sCity[i-1];
         currentWeather(city);
     }
+
 }
+//Clear the search history from the page
+function clearHistory(event){
+    event.preventDefault();
+    sCity=[];
+    localStorage.removeItem("cityname");
+    document.location.reload();
+
+}
+//Click Handlers
+$("#search-button").on("click",displayWeather);
+$(document).on("click",invokePastSearch);
+$(window).on("load",loadlastCity);
+$("#clear-history").on("click",clearHistory);
+
