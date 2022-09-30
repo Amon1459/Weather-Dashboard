@@ -16,13 +16,13 @@ h1 {
 #cityDetail,
 #uvIndexColor,
 li {
-    color: #f4f7fc!important;
+    color: #4D4F53!important;
 }
 
 #searchResults,
 #cityDetail,
 .card {
-    background-color: #fafdfd!important;
+    background-color: #5A6C73!important;
 }
 
 #searchResults {
@@ -30,7 +30,7 @@ li {
 }
 
 #fiveDay .card {
-    border: 1px solid rgb(20, 135, 131)!important;
+    border: 1px solid white!important;
 }
 
 #searchHistory li {
@@ -39,7 +39,7 @@ li {
 }
 
 p {
-    color: #efedea;
+    color: #D9B779;
 }
 
 h1, h2, h3, h4, h5 {
@@ -52,9 +52,5 @@ h2, h3, h4, h5 {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #f2f9f8;
+    background-color: #97A6A4;
 }
-
-
-
-
