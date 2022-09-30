@@ -1,0 +1,19 @@
+{
+  "name": "weather-dashboard",
+  "version": "1.0.0",
+  "description": "This is a weather dashboard with form inputs that will run in the browser and feature dynamically updated HTML and CSS. It allows the user to search to view weather outlook for multiple cities so travelers can plan a trip accordingly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amon1459/Weather-Dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amon1459/Weather-Dashboard/issues"
+  },
+  "homepage": "https://github.com/Amon1459/Weather-Dashboard#readme"
+}
